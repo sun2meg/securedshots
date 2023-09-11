@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SecuredCameraShots-Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #777;
+            text-align: center;
+        }
+
+        .video-container {
+            text-align: center;
+        }
+
+        #video-element {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to SecuredCameraShots Android App</h1>
+<img src="image.png" width="200sp" height="200sp" align="center"/></br>
+    <p>Capture video/Image and uploads to google drive using the Android Google Drive API OAuth</p>
+
+    <div class="video-container">
+        <img id="video-element" src="image.jpg"/>
+        
+    </div>
+<p>
+    The Android app provides a seamless and intuitive way to capture both videos and images, allowing users to save their copy at the cloud incase of snatching the phone to delete media evidence. With just a tap of a button, users can access their device's camera and effortlessly capture high-quality videos and images.
+</p>
+<p>
+    Once captured, the app offers a convenient feature that enables users to instantly upload these videos and images to their chosen Google drive account.By leveraging the power of the Google Drive API,media evidence could be preserved in a safe location incase of witnessing an unpleasant event.Even if the phone is snatched and video/image coverage deleted,you're assured of having a safe copy inthe cloud.
+</p>
+
+    <div class="button-container">
+        <button class="button" onclick="captureVideo()">
+        <a href="#">Home</a></button>
+        <button class="button" onclick="sendEmail()"><a href="privacy.html">Forward</a></button>
+    </div>
+
+    <script>
+        function captureVideo() {
+            // Code to capture video goes here
+            // You can use JavaScript APIs or libraries for capturing video from camera
+        }
+
+        function sendEmail() {
+            // Code to send the captured video as an email goes here
+            // You can use JavaScript APIs or libraries for sending email or interact with the GMail API
+        }
+    </script>
+</body>
+</html>
